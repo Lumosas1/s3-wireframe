@@ -1,4 +1,4 @@
-/* #header, #hero, #gallery, #footer genişlikleri 750px olmalı */
+
 * {
     margin: 0;
     padding: 0;
@@ -76,9 +76,19 @@ body {
     font-size: 16px;
     font-weight: bold;
   }
-/* #menu bir <nav> olmalı */
-/* #menu içindeki linklerin arka plan rengi: #777 */
-/* #menu linklerine hover yapıldığında arka plan rengi: #000 */
-/* #menu linklerinin padding değeri: 20px */
+  #footer { 
+    width:750px;
+    margin:0 auto;
+    background-color: #999;
+    padding: 30px;
+    text-align: center;
+  } 
 
-/* #footer butonu metni 'Başa dön' olmalı */
+  #footer button {
+    padding: 10px 20 px;
+    font-weight: bold;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+
+  }
