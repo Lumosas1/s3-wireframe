@@ -11,6 +11,16 @@ body {
     color: #000;
 
 }
+
+#header {
+    width: 750px;
+    margin: 0 auto;
+    disaplay:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px,0;
+}
+
 /* #menu bir <nav> olmalı */
 /* #menu içindeki linklerin arka plan rengi: #777 */
 /* #menu linklerine hover yapıldığında arka plan rengi: #000 */
