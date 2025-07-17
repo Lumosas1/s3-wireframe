@@ -15,12 +15,46 @@ body {
 #header {
     width: 750px;
     margin: 0 auto;
-    disaplay:flex;
+    display:flex;
     justify-content:space-between;
     align-items: center;
     padding: 20px,0;
 }
-
+ #header h1 {
+    font-size:24px;
+ }
+  #menu  ul {
+    list-style: none;
+    display:flex;
+    gap: 10px;
+  }
+  #menu li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #777; 
+    padding: 20px;
+    display: inline-block;
+  }
+  #menu li a:hover {
+    background-color: #000;
+  } 
+  #hero {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+   #hero h2 {
+    font-size: 18px;
+    margin-top: 10px;
+   }
+   
 /* #menu bir <nav> olmalı */
 /* #menu içindeki linklerin arka plan rengi: #777 */
 /* #menu linklerine hover yapıldığında arka plan rengi: #000 */
