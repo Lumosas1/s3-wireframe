@@ -23,6 +23,9 @@ body {
  #header h1 {
     font-size:24px;
  }
+  #menu {
+    display: flex;;
+  }
   #menu  ul {
     list-style: none;
     display:flex;
@@ -57,7 +60,7 @@ body {
    #gallery {
     width: 750px;
     margin: 40px auto;
-    display: filex;
+    display: flex;
     justify-content: space-between;
   } 
 
