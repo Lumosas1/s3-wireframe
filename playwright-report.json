@@ -1,96 +1,96 @@
 {
   "stats": {
-    "expected": 3,
-    "unexpected": 0,
+    "expected": 1,
+    "unexpected": 8,
     "skipped": 0,
     "flaky": 0,
-    "duration": 420189
+    "duration": 240747
   },
   "tests": [
     {
       "title": "#header genişliği doğru olmalı",
-      "status": "timedOut",
-      "duration": 30005
+      "status": "failed",
+      "duration": 105
     },
     {
       "title": "#header yatay hizalaması doğru olmalı",
-      "status": "timedOut",
-      "duration": 30018
+      "status": "failed",
+      "duration": 68
     },
     {
       "title": "#header başlığı ve menü iki yana yaslı olmalı",
-      "status": "timedOut",
-      "duration": 30009
+      "status": "failed",
+      "duration": 52
     },
     {
       "title": "#header içeriği dikey olarak ortalanmalı",
-      "status": "timedOut",
-      "duration": 30008
+      "status": "failed",
+      "duration": 56
     },
     {
       "title": "#menu esnek bir düzen kullanmalı",
-      "status": "timedOut",
-      "duration": 30008
+      "status": "failed",
+      "duration": 66
     },
     {
       "title": "#menu bir NAV tagi olmalı",
-      "status": "timedOut",
-      "duration": 30013
+      "status": "passed",
+      "duration": 50
     },
     {
       "title": "#menu linklerinin arka plan rengi doğru olmalı",
-      "status": "passed",
-      "duration": 27
+      "status": "failed",
+      "duration": 31
     },
     {
       "title": "#menu linklerinin arka plan rengi üzerine gelindiğinde değişmeli",
-      "status": "passed",
-      "duration": 6
+      "status": "failed",
+      "duration": 153
     },
     {
       "title": "#menu bağlantılarının iç boşluğu doğru olmalı",
-      "status": "passed",
-      "duration": 9
+      "status": "failed",
+      "duration": 112
     },
     {
       "title": "#hero display özelliği doğru olmalı",
       "status": "timedOut",
-      "duration": 30003
+      "duration": 30008
     },
     {
       "title": "#hero içeriği dikey olarak sıralı olmalı",
       "status": "timedOut",
-      "duration": 30008
+      "duration": 30010
     },
     {
       "title": "#hero içeriği yatay ve dikey olarak ortalanmalı",
       "status": "timedOut",
-      "duration": 30009
+      "duration": 30003
     },
     {
       "title": "#hero içeriği dikey olarak ortalanmalı",
       "status": "timedOut",
-      "duration": 30018
+      "duration": 30007
     },
     {
       "title": "#gallery genişliği doğru olmalı",
       "status": "timedOut",
-      "duration": 30011
+      "duration": 30017
     },
     {
       "title": "#gallery display değeri doğru olmalı",
       "status": "timedOut",
-      "duration": 30014
+      "duration": 30003
     },
     {
       "title": "#gallery ögeleri arasında eşit mesafe olmalı",
       "status": "timedOut",
-      "duration": 30006
+      "duration": 30003
     },
     {
       "title": "#footer butonu doğru metni içermeli",
       "status": "timedOut",
-      "duration": 30018
+      "duration": 30004
     }
   ]
 }
