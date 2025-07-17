@@ -1,5 +1,16 @@
 /* #header, #hero, #gallery, #footer genişlikleri 750px olmalı */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+
+}
 /* #menu bir <nav> olmalı */
 /* #menu içindeki linklerin arka plan rengi: #777 */
 /* #menu linklerine hover yapıldığında arka plan rengi: #000 */
